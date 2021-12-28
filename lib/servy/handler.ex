@@ -105,15 +105,15 @@ end
 
 # IO.puts(Servy.Handler.handle(request))
 
-# request = """
-# GET /bears HTTP/1.1
-# Host: example.com
-# User-Agent: ExampleBrowser/1.0
-# Accept: */*
+request = """
+GET /bears HTTP/1.1
+Host: example.com
+User-Agent: ExampleBrowser/1.0
+Accept: */*
 
-# """
+"""
 
-# IO.puts(Servy.Handler.handle(request))
+IO.puts(Servy.Handler.handle(request))
 
 # request = """
 # GET /big_foot HTTP/1.1
@@ -135,15 +135,15 @@ end
 
 # IO.puts(Servy.Handler.handle(request))
 
-request = """
-DELETE /bears/1 HTTP/1.1
-Host: example.com
-User-Agent: ExampleBrowser/1.0
-Accept: */*
+# request = """
+# DELETE /bears/1 HTTP/1.1
+# Host: example.com
+# User-Agent: ExampleBrowser/1.0
+# Accept: */*
 
-"""
+# """
 
-IO.puts(Servy.Handler.handle(request))
+# IO.puts(Servy.Handler.handle(request))
 
 # request = """
 # GET /about HTTP/1.1
