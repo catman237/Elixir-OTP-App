@@ -12,9 +12,4 @@ defmodule Servy do
       :world
 
   """
-  def hello(name) do
-    "hello, #{name}!"
-  end
 end
-
-IO.puts(Servy.hello("greg"))
